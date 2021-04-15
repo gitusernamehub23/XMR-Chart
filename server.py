@@ -31,4 +31,4 @@ def chart_data():
 
 
 if __name__ == '__main__':
-    application.run(debug=False, threaded=True, port=5001)
+    application.run(debug=False, threaded=True, port=5000)

@@ -9,6 +9,6 @@ RUN echo 'nameserver 8.8.8.8' > /etc/resolv.conf && pip install -r requirements.
 
 #COPY . .
 
-EXPOSE 5001/tcp
+EXPOSE 5001
 
 CMD ["python", "./server.py"]
